@@ -1,0 +1,44 @@
+{
+    "data": [
+      {
+        "question": "Imagina que você esta com uma vontade grande de beber um refrigerante, Qual a primeira coisa que você precisa fazer para tomar um refrigerante?",
+        "choices": ["Morrer de Sede", "Beber Agua", "Pegar o Refrigerante na geladeira", "Se Ocupar em outra atividade para passar a vontade"],
+        "answer": "Pegar o Refrigerante na geladeira"
+      },
+      {
+        "question": "Ao Pegar a lata voce percebe que ela esta lacrada, o que fazer em seguida?",
+        "choices": ["Colocar de volta na geladeira", "Furar a Lata", "Descartar a Lata", "Segurar o Lacre"],
+        "answer": "Segurar o Lacre"
+      },
+      {
+        "question": "Voce segurou o Lacre Mas a Lata Permanece fechada, o que fazer em seguida?",
+        "choices": ["Desitir de Tomar um Refrigerante", "Abrir a Lata levantando o lacre para cima", "Furar a Lata", "Tomar um Chopp"],
+        "answer": "Abrir a Lata levantando o lacre para cima"
+      },
+      {
+        "question": "Pronto voce conseguiu abrir a lata, mas o lacre pode atrapalhar ao beber o refrigerante, o que fazer?",
+        "choices": ["Remover o lacre", "Deixar o lacre do jeito que esta", "Rodar o lacre", "Derramar o refrigerante"],
+        "answer": "Remover o lacre"
+      },
+      {
+        "question": "Você conseguiu remover o lacre, mas nao consegue beber porque ela esta bem posicionada, por onde posicionar para poder bebe-la?",
+        "choices": ["Boca", "Ouvido", "Nariz", "Braço"],
+        "answer": "Boca"
+      },
+      {
+        "question": "A lata está rente a boca mas voce nao cosegur beber ainda, o que fazer?",
+        "choices": ["Amassar a Lata", "Devolver a lata na geladeira", "Inclinar a lata", "Olhar a lata"],
+        "answer": "Inclinar a lata"
+      },
+      {
+        "question": "Ao Incliar a lata você...",
+        "choices": ["Cospe o liquido", "Ingere o liquido", "Gargareja o liquido", "Bocheche o Liquido"],
+        "answer": "Ingere o liquido"
+      },
+      {
+        "question": "Ao terminar de Beber voce..",
+        "choices": ["Bebe mais", "oferece para alguem", "Colocar de volta na geladeira", "Joga a lata no lixo"],
+        "answer": "Colocar de volta na geladeira"
+      }
+    ]
+  }

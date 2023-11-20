@@ -1,0 +1,73 @@
+{
+    "data": [
+        {
+            "question": "Imagina que você precisa ir ao seu quarto, o que você vai fazer primeiramente?",
+            "choices": [
+                "Vai ate a Porta",
+                "Vai a janela",
+                "Vai á janela",
+                "Se Ocupar em outra atividade"
+            ],
+            "answer": "Vai ate a Porta"
+        },
+        {
+            "question": "Chegando na porta, Ela está fechada, o que fazer?",
+            "choices": [
+                "Dá meia volta",
+                "Arromba a porta",
+                "Gira a Maçaneta",
+                "Pula a Janela"
+            ],
+            "answer": "Gira a Maçaneta"
+        },
+        {
+            "question": "A porta ta trancada?",
+            "choices": [
+                "Sim",
+                "Nao"
+            ],
+            "answer": "Sim"
+        },
+        {
+
+            "question": "A porta ta trancada, o que fazer?",
+            "choices": [
+                "Volta para a sala",
+                "Gire a Chave",
+                "Arrombar a porta",
+                "Tomar um Chopp"
+            ],
+            "answer": "Gire a Chave"
+        },
+        {
+            "question": "A porta esta destrancada, o que fazer em seguida?",
+            "choices": [
+                "Abra a Porta",
+                "Pula a Janela",
+                "Nada",
+                "Gira a Maçaneta para confirmar"
+            ],
+            "answer": "Abra a Porta"
+        },
+        {
+            "question": "Você abriu a Porta, o que fazer em seguida?",
+            "choices": [
+                "Volta para a sala",
+                "Entra no quarto",
+                "Risca a porta",
+                "Fecha a porta"
+            ],
+            "answer": "Entra no quarto"
+        },
+        {
+            "question": "Voce precisa de privacidade, o que fazer para isso?",
+            "choices": [
+                "Deixa ela aberta",
+                "Encosta a porta",
+                "Fecha a porta",
+                "Dormir na cama"
+            ],
+            "answer": "Fecha a porta"
+        }
+    ]
+}

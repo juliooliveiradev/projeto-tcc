@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "question": "Voce esta em sua casa e de repente falta luz, o que aconteceu?",
+            "choices": [
+                "Cortaram a Energia",
+                "O disjuntor disparou",
+                "A lampada não funciona",
+                "Houve falha na rede de energia por conta da manutenção"
+            ]
+        },
+        {
+            "question": "A Lampada Estava Plugada?",
+            "choices": [
+                "Sim",
+                "Nao"
+            ]
+        },
+        {
+            "question": "O Bulbo Queimou?",
+            "choices": [
+                "Sim",
+                "Nao"
+            ]
+        },
+        {
+            "question": "Lampada Desplugada, o que fazer?",
+            "choices": [
+                "Plugar a Lampada",
+                "Quebrar a Lampada",
+                "Trocar a lampada",
+                "Descartar a Lampada"
+            ]
+        },
+        {
+            "question": "O Bulbo Queimou, o que fazer?",
+            "choices": [
+                "Trocar o bulbo",
+                "Quebrar a Lampada",
+                "Trocar a lampada",
+                "Descartar a Lampada"
+            ]
+        },
+        {
+            "question": "O Bulbo nao Queimou e a lampada nao acende, o que fazer?",
+            "choices": [
+                "Comprar outra Lampada",
+                "Quebrar a Lampada",
+                "Acender uma vela",
+                "Descartar a Lampada"
+            ]
+        }
+    ]
+}
