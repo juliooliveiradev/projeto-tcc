@@ -8,7 +8,8 @@
                 "Vai á janela",
                 "Se Ocupar em outra atividade"
             ],
-            "answer": "Vai ate a Porta"
+            "answer": "Vai ate a Porta",
+            "img": "/images/PrimeiraEtapa/Question2/Action1.png"
         },
         {
             "question": "Chegando na porta, Ela está fechada, o que fazer?",
@@ -18,7 +19,8 @@
                 "Gira a Maçaneta",
                 "Pula a Janela"
             ],
-            "answer": "Gira a Maçaneta"
+            "answer": "Gira a Maçaneta",
+            "img": "/images/PrimeiraEtapa/Question2/Action2.png"
         },
         {
             "question": "A porta ta trancada?",
@@ -26,7 +28,8 @@
                 "Sim",
                 "Nao"
             ],
-            "answer": "Sim"
+            "answer": "Sim",
+            "img": "/images/PrimeiraEtapa/Question2/Action3.png"
         },
         {
 
@@ -37,7 +40,8 @@
                 "Arrombar a porta",
                 "Tomar um Chopp"
             ],
-            "answer": "Gire a Chave"
+            "answer": "Gire a Chave",
+            "img": "/images/PrimeiraEtapa/Question2/Action4.png"
         },
         {
             "question": "A porta esta destrancada, o que fazer em seguida?",
@@ -47,7 +51,8 @@
                 "Nada",
                 "Gira a Maçaneta para confirmar"
             ],
-            "answer": "Abra a Porta"
+            "answer": "Abra a Porta",
+            "img": "/images/PrimeiraEtapa/Question2/Action5.png"
         },
         {
             "question": "Você abriu a Porta, o que fazer em seguida?",
@@ -57,7 +62,8 @@
                 "Risca a porta",
                 "Fecha a porta"
             ],
-            "answer": "Entra no quarto"
+            "answer": "Entra no quarto",
+            "img": "/images/PrimeiraEtapa/Question2/Action6.png"
         },
         {
             "question": "Voce precisa de privacidade, o que fazer para isso?",
@@ -67,7 +73,8 @@
                 "Fecha a porta",
                 "Dormir na cama"
             ],
-            "answer": "Fecha a porta"
+            "answer": "Fecha a porta",
+            "img": "/images/PrimeiraEtapa/Question2/Action7.png"
         }
     ]
 }

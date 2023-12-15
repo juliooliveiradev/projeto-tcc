@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Start = ({ onQuizStart, onQuiz2Start, onQuiz3Start }) => {
+const Start = ({ onQuizStart, onQuiz2Start, onQuiz3Start, onQuiz4Start }) => {
   return(
     <div className="card">
       <div className="card-content">
@@ -20,7 +20,7 @@ const Start = ({ onQuizStart, onQuiz2Start, onQuiz3Start }) => {
           </div>
           <h4>2º Etapa: Construindo algoritmos atraves de codigos de programaçao </h4>
           <div class="box">
-            <button className="button is-info is-medium" onClick={onQuizStart}>Abrir Lampada</button>
+            <button className="button is-info is-medium" onClick={onQuiz4Start}>Troca de Valores de Duas Variaveis</button>
           </div>
           <div class="box">
             <button className="button is-info is-medium" onClick={onQuizStart}>Abrir Lampada</button>

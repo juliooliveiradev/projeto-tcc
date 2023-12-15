@@ -7,21 +7,28 @@
                 "O disjuntor disparou",
                 "A lampada não funciona",
                 "Houve falha na rede de energia por conta da manutenção"
-            ]
+            ],
+            "answer": "A lampada não funciona",
+            "img": "/images/PrimeiraEtapa/Question3/Action1.png"
+            
         },
         {
             "question": "A Lampada Estava Plugada?",
             "choices": [
                 "Sim",
                 "Nao"
-            ]
+            ],
+            "answer":"Sim",
+            "img": "/images/PrimeiraEtapa/Question3/Action2.png"
         },
         {
             "question": "O Bulbo Queimou?",
             "choices": [
                 "Sim",
                 "Nao"
-            ]
+            ],
+            "answer":"Sim",
+            "img": "/images/PrimeiraEtapa/Question3/Action3.png"
         },
         {
             "question": "Lampada Desplugada, o que fazer?",
@@ -30,7 +37,9 @@
                 "Quebrar a Lampada",
                 "Trocar a lampada",
                 "Descartar a Lampada"
-            ]
+            ],
+            "answer": "Plugar a Lampada",
+            "img": "/images/PrimeiraEtapa/Question3/Action4.png"
         },
         {
             "question": "O Bulbo Queimou, o que fazer?",
@@ -39,7 +48,9 @@
                 "Quebrar a Lampada",
                 "Trocar a lampada",
                 "Descartar a Lampada"
-            ]
+            ],
+            "answer": "Trocar o bulbo",
+            "img": "/images/PrimeiraEtapa/Question3/Action5.png"
         },
         {
             "question": "O Bulbo nao Queimou e a lampada nao acende, o que fazer?",
@@ -48,7 +59,9 @@
                 "Quebrar a Lampada",
                 "Acender uma vela",
                 "Descartar a Lampada"
-            ]
+            ],
+            "answer": "Comprar outra Lampada",
+            "img": "/images/PrimeiraEtapa/Question3/Action6.png"
         }
     ]
 }

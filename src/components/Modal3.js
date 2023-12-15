@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../images/arte30.png'
+import img1 from '../images/PrimeiraEtapa/Question3/arte30.png'
 
 
 

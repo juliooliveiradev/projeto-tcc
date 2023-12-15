@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Question.css'; // Substitua 'NomeDoArquivo' pelo nome real do seu arquivo CSS
+import img1 from '../images/SegundaEtapa/Question4/Action2.jpg';
+import img2 from '../images/SegundaEtapa/Question4/codigo2.png';
 
-const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onSetActiveQuestion, onSetStep, onConcatIndex }) => {
+const Question4 = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onSetActiveQuestion, onSetStep, onConcatIndex, userInput, onSetUserInput, userInput1,onSetUserInput1 }) => {
   const [selected, setSelected] = useState('');
   const [error, setError] = useState('');
   const [answered, setAnswered] = useState(false);
@@ -44,10 +46,20 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
 
     onConcatIndex((prevSequence) => prevSequence + (activeQuestion + 1) + ' ');
 
+    if(activeQuestion === 0){
+        userInput = prompt("Por favor, digite um valor de A:");
+        userInput1 = prompt("Por favor, digite um valor de B:");
+        onSetUserInput(userInput);
+        onSetUserInput1(userInput1);
+        console.log(userInput);
+        console.log(userInput1);
+        
+    }
+
     if (activeQuestion < numberOfQuestions - 1) {
       onSetActiveQuestion(activeQuestion + 1);
     } else {
-      onSetStep(5);
+      onSetStep(9);
     }
   };
 
@@ -91,9 +103,14 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
           <div className="mt-2">
             <strong>Sequência de Perguntas Respondidas:</strong> {sequenceString}
           </div>
+          <div>
+            {activeQuestion === 1 && <img src={img1} alt={`Imagem da pergunta ${activeQuestion + 1}`} />}
+            {activeQuestion === 1 && <img src={img2} alt={`Imagem da pergunta ${activeQuestion + 1}`} />}
+          </div>
           {selected && (
             <div>
               <img src={data.img} alt={`Imagem da pergunta ${activeQuestion + 1}`} />
+              <img src={data.img1} alt={`Imagem da pergunta ${activeQuestion + 1}`} />
             </div>
           )}
         </div>
@@ -102,4 +119,4 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
   );
 };
 
-export default Question;
+export default Question4;

@@ -1,0 +1,32 @@
+{
+    "data": [
+      {
+        "question": "O que o algoritmo faz no início?",
+        "choices": [ "Declara as variáveis A, B e Aux", "Lê o valor de A", "Lê o valor de B", "Encerrar o Algoritmo"],
+        "answer": "Declara as variáveis A, B e Aux",
+        "img": "/images/SegundaEtapa/Question4/Action1.jpg",
+        "img1": "/images/SegundaEtapa/Question4/codigo1.png"
+      },
+      {
+        "question": "Estamos com todas as variaveis definidas juntamente com a variavel auxiliar, para que ela auxilie na troca de variaveis como iremos utiliza-la?",
+        "choices": ["A -> Aux", "C -> A", "Aux -> A", "B->A"],
+        "answer": "Aux -> A",
+        "img": "/images/SegundaEtapa/Question4/Action3.jpg",
+        "img1": "/images/SegundaEtapa/Question4/codigo3.png"
+      },
+      {
+        "question": "Com a variavel auxiliar definida, o que faremos em seguida?",
+        "choices": ["Aux -> A", "A -> B", "Aux -> B", "C -> B"],
+        "answer": "A -> B",
+        "img": "/images/SegundaEtapa/Question4/Action4.jpg",
+        "img1": "/images/SegundaEtapa/Question4/codigo4.png"
+      },
+      { 
+        "question": "Com o Aux Definido e a Variavel A redefinida, o Que faremos para redefinir o B",
+        "choices": ["B -> Aux", "B -> A", "C -> B", "Aux -> B"],
+        "answer": "B -> Aux",
+        "img": "/images/SegundaEtapa/Question4/Action5.jpg",
+        "img1": "/images/SegundaEtapa/Question4/codigo5.png"
+      }
+    ]
+  }

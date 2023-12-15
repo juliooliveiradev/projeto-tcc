@@ -1,0 +1,27 @@
+
+  
+  .radio-wrapper {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Adicione estilos para a div que envolve cada opção de escolha */
+  }
+  
+  .has-background-success {
+    background-color: #8FDB93; /* Verde para opção correta */
+  }
+  
+  .has-background-danger {
+    background-color: #FF9B9B; /* Vermelho para opção incorreta */
+  }
+  
+
+  
+  .has-text-danger {
+    color: #FF0000; /* Cor do texto de erro ou resposta correta */
+  }
+  
+
+  
+
+  
