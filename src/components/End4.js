@@ -43,7 +43,7 @@ const End4 = ({ onReset,  time, sequence,userInput,userInput1 }) => {
           <h3>Parabens, Você acaba de construir um algoritmo atraves de uma sequencia de linha de codigos executada</h3>
           <p><strong>Sequencia de linhas de codigos:</strong> {sequence}</p>
           <h3>Veja Passo-a-passo como se troca os valores de duas variaveis</h3>
-          <p><strong>1.</strong> Nomeie as variaveis que serao utulizads com A,B, e Aux</p>
+          <p><strong>1.</strong> Nomeie as variaveis que serao utulizados com A,B, e Aux</p>
           <p><strong>2.</strong> Defina as variaveis A e B</p>
           <p><strong>3.</strong> Guardar o valor original da variável a em uma variável auxiliar no caso utilizamos o valor de A.</p>
           <p><strong>4.</strong> Atribuir à variável A o valor original da variável B.</p>

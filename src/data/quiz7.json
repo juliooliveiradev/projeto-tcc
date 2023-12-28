@@ -1,0 +1,46 @@
+{
+    "data": [
+      {
+        "question": "O que o algoritmo faz no início?",
+        "choices": [ "Lê o valor de N",  "Lê o valor de Nota", "Encerrar o Algoritmo", "Declara as variáveis N, Contador, produto"],
+        "answer": "Declara as variáveis N, Contador, produto",
+        "img": "/images/SegundaEtapa/Question7/Action1.jpg",
+        "img1": "/images/SegundaEtapa/Question7/codigo1.jpg"
+      },
+      {
+        "question": "Precisamos de uma variavel para para armazenar o resultado do fatorial de N, como iremos inicializa-lo?",
+        "choices": ["produto -> 10", "produto -> 0", "produto -> 1", "produto -> 8" ],
+        "answer": "produto -> 1",
+        "img": "/images/SegundaEtapa/Question7/Action3.jpg",
+        "img1": "/images/SegundaEtapa/Question7/codigo3.jpg"
+      },
+      {
+        "question": "Precisamos de uma variavel para contar os numeros que serão somados, para isso, vamos utilizar a variavel Contador. Se vamos utilizar, precisamos inicializar essa variavel. Qual valor ela irá começar?",
+        "choices": ["Contador -> 8", "Contador -> 1", "Contador -> 10", "Contador -> 8" ],
+        "answer": "Contador -> 1",
+        "img": "/images/SegundaEtapa/Question7/Action4.jpg",
+        "img1": "/images/SegundaEtapa/Question7/codigo4.jpg"
+      },
+      { 
+        "question": "Para efetuarmos uma sequencia de soma, precisamos somar N vezes. Para isso, precisamos que a soma vai acumulando enquanto o contador for menor que N. Como representaremos essa condição?",
+        "choices": ["Contador => 10", "Contador < N", "Contador <= 8", "Contador <= 9"],
+        "answer": "Contador < N",
+        "img": "/images/SegundaEtapa/Question7/Action5.jpg",
+        "img1": "/images/SegundaEtapa/Question7/codigo5.jpg"
+      },
+      { 
+        "question": "Para que a repitação funciona precisa que a variavel ",
+        "choices": ["Nada", "soma -> soma + 1", "Contador -> 0", "Contador -> Contador + 1"],
+        "answer": "Contador -> Contador + 1",
+        "img": "/images/SegundaEtapa/Question7/Action6.jpg",
+        "img1": "/images/SegundaEtapa/Question7/codigo6.jpg"
+      },
+      { 
+        "question": "Para calcularmos o fatorial de N, precisamos que tenha uma multiplicaçao acumulada onde que o produto vai acumulando a multiplicação do propio contado ate que atinga o N. Que calculo utilizaremos para essa aplicação?",
+        "choices": ["produto -> produto + 1", "produto -> produto + produto", "produto -> produto * contador", "produto-> produto * 0"],
+        "answer": "produto -> produto * contador",
+        "img": "/images/SegundaEtapa/Question7/Action7.jpg",
+        "img1": "/images/SegundaEtapa/Question7/codigo7.jpg"
+      }
+    ]
+  }

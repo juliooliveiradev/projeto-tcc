@@ -1,0 +1,102 @@
+{
+    "data": [
+      {
+        "question": "O que o algoritmo faz no início?",
+        "choices": [ "Lê o valor de N",  "Lê o valor de Nota", "Declara as variáveis N, q, ndigit, r e i como inteiro e binario como vetor de 50 numeros inteiros", "Encerrar o Algoritmo"],
+        "answer": "Declara as variáveis N, q, ndigit, r e i como inteiro e binario como vetor de 50 numeros inteiros",
+        "img": "/images/SegundaEtapa/Question11/Action1.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo1.png"
+      },
+      {
+        "question": "Primeiro, vamos utilizar a variavel q  para assumir o valor de N para ser redefinida no codigo. Como que essa variavel é definida? ",
+        "choices": ["q -> o", "q -> N", "q -> 20", "q -> 1" ],
+        "answer": "q -> N",
+        "img": "/images/SegundaEtapa/Question11/Action3.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo3.jpg"
+      },
+      {
+        "question": "Definiremos tambem, a variavel ndigit para ela percorrer o vetor binario. Como ela é inicializada?",
+        "choices": ["ndigit -> 0", "ndigit -> 10", "ndigit -> 1", "ndigit -> 8" ],
+        "answer": "ndigit -> 0",
+        "img": "/images/SegundaEtapa/Question11/Action4.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo4.png"
+      },
+      { 
+        "question": "Presisaremos da variavel r para armazenar o resto da divisao de q por 2. Como ela é inicializada?",
+        "choices": ["r -> 0", "r -> N", "r -> 9", "r -> 1"],
+        "answer": "r -> 0",
+        "img": "/images/SegundaEtapa/Question11/Action5.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo5.png"
+      },
+      { 
+        "question": "Para começarmos as açoes de  conversao de numero da base decimal para base binaria, precisamos extrair o resto da divisao de q por 2. Como fazemos esse calculo?",
+        "choices": ["r -> q * 2", "r -> q / 2", "r -> q mod 2", "r -> r + 1"],
+        "answer": "r -> q mod 2",
+        "img": "/images/SegundaEtapa/Question11/Action6.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo6.png"
+      },
+      { 
+        "question": "Ja que definimos o numero binario atraves da definição de r, devemos amazenar no vetor binario. Como faremos isso?",
+        "choices": ["binario[0] -> 0", "binario[ndigit] -> q", "binario[ndigit] -> r", "binario[1] -> 1"],
+        "answer": "binario[ndigit] -> r",
+        "img": "/images/SegundaEtapa/Question11/Action7.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo7.png"
+      },
+      { 
+        "question": "Para garantir a alternacia entre os valores do vetor binario, precisamos incrementar a variavel ndigit para ela precorrer o vetor. Como faremos isso?",
+        "choices": ["ndigit -> 0", "ndigit -> ndigit * 10", "ndigit -> ndigit + 1", "ndigit-> ndigit / 10"],
+        "answer": "ndigit -> ndigit + 1",
+        "img": "/images/SegundaEtapa/Question11/Action8.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo8.png"
+      },
+      { 
+        "question": "Para gantir que haja a repetiçao, precisamos fragmentar o q ate que ele fique igual a zero. como faremos isso",
+        "choices": ["Não tem como", "q -> 1", "q -> 20", "q -> Int(q/2)"],
+        "answer": "q -> Int(q/2)",
+        "img": "/images/SegundaEtapa/Question11/Action9.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo9.png"
+      },
+      { 
+        "question": "Para elaborar o vetor Binario, precisamos repetir as ações a seguir até o q seja diferente de 0. Como representaremos essa condição?",
+        "choices": ["q <> 0", "q < N", "q <= 9", "q >= 9"],
+        "answer": "q <> 0",
+        "img": "/images/SegundaEtapa/Question11/Action10.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo10.png"
+      },
+      { 
+        "question": "Prontinho! Ja definimos o vetor com o valor na base decimal mas para mostrar o vetor, precisamos mais uma vez o vetor para mostrar todos os elemnetos do vetor binarioa atraves da variavel i. Como definiremos essa variavel?",
+        "choices": ["i -> 0", "i -> N", "i -> ndigit - 1", "i -> ndigit +1"],
+        "answer": "i -> ndigit - 1",
+        "img": "/images/SegundaEtapa/Question11/Action11.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo11.png"
+      },
+      {
+      "question": "Como exibiremos na tela o vetor binario?",
+      "choices": ["Mostrar ndegit", "Mostrar O valor q eh", "Mostrar i", "Mostrar O numero binario é"],
+      "answer": "Mostrar O numero binario é",
+      "img": "/images/SegundaEtapa/Question11/Action12.jpg",
+      "img1": "/images/SegundaEtapa/Question11/codigo12.png"
+      },
+      { 
+        "question": "Para efetuarmos uma sequencia de para mostrar todos os numeros do Vetor Binario , precisamos somar N vezes. Para isso, precisamos que a soma vai acumulando enquanto o i for maior que N. Como representaremos essa condição?",
+        "choices": ["i > 0", "i < N", "i <= 8", "i <= 9"],
+        "answer": "i > 0",
+        "img": "/images/SegundaEtapa/Question11/Action13.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo13.png"
+      },
+      { 
+        "question": "Como fazemos para mostrar todos os valores do vetor binario percorrendo todovetor?",
+        "choices": ["Mostra  0", "Mostrar binario[8]", "Mostrar (binario[i])", "Mostrar (bianrio[0]"],
+        "answer": "Mostrar (binario[i])",
+        "img": "/images/SegundaEtapa/Question11/Action14.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo14.png"
+      },
+      { 
+        "question": "Para garantimos a repetição para executar as açoes para a inversão de algoritmos, precisamos fragmentar o i sustraindo ele com 1. Como faremos isso?",
+        "choices": ["i -> 0", "i -> i - 1", "i -> i + 10", "i-> i / 10"],
+        "answer": "i -> i - 1",
+        "img": "/images/SegundaEtapa/Question11/Action15.jpg",
+        "img1": "/images/SegundaEtapa/Question11/codigo15.png"
+      }
+    ]
+  }

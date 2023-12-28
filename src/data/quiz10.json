@@ -1,0 +1,54 @@
+{
+    "data": [
+      {
+        "question": "O que o algoritmo faz no início?",
+        "choices": [ "Lê o valor de N",  "Lê o valor de Nota", "Encerrar o Algoritmo","Declara as variáveis N, investido, resto como inteiro"],
+        "answer": "Declara as variáveis N, investido, resto como inteiro",
+        "img": "/images/SegundaEtapa/Question10/Action1.jpg",
+        "img1": "/images/SegundaEtapa/Question10/codigo1.jpg"
+      },
+      {
+        "question": "Para descobrimos qual vai ser a inversão do N, primeiro termos que inicializar a variavel invertido que ira armazenar a inversão de N. Como quea a variavel invertido será inicializada",
+        "choices": ["invertido -> 8", "invertido -> 1", "invertido -> 0", "invertido -> 10" ],
+        "answer": "invertido -> 0",
+        "img": "/images/SegundaEtapa/Question10/Action3.jpg",
+        "img1": "/images/SegundaEtapa/Question10/codigo3.jpg"
+      },
+      {
+        "question": "Precisaremos da variavel resto para ser utilizada na inversao dos algarismos de N. Como ela será inicializada",
+        "choices": ["resto -> 0", "resto -> 10", "resto -> 1", "resto -> 8" ],
+        "answer": "resto -> 0",
+        "img": "/images/SegundaEtapa/Question10/Action4.jpg",
+        "img1": "/images/SegundaEtapa/Question10/codigo4.jpg"
+      },
+      
+      { 
+        "question": "Para efetuarmos a inversao dos algarismos de N, precisamos repetir as ações a seguir até o N ser menor que 0. Como representaremos essa condição?",
+        "choices": ["N > 0", "N < N", "N <= 9", "N >= 9"],
+        "answer": "N > 0",
+        "img": "/images/SegundaEtapa/Question10/Action5.jpg",
+        "img1": "/images/SegundaEtapa/Question10/codigo5.jpg"
+      },
+      { 
+        "question": "Para começarmos as açoes de inversão do N precisamos extrair a unidade desse N Atraves do resto da divisao de N por 10. Como representaremos essa expressão",
+        "choices": ["Não tem como", "resto -> resto + 1", "resto -> N mod 10", "resto -> resto + 1"],
+        "answer": "resto -> N mod 10",
+        "img": "/images/SegundaEtapa/Question10/Action6.jpg",
+        "img1": "/images/SegundaEtapa/Question10/codigo6.jpg"
+      },
+      { 
+        "question": "Para começar  a formação do Numero Invertido, devemos definir o propio numero invertido como o mesmo numro invertido multiplicado por 10 e somado com o resto, Como representaremos essa expressão ",
+        "choices": ["invertido -> 0", "invertido -> invertido * 10 + resto", "invertido -> 1", "resto -> resto + 1"],
+        "answer": "invertido -> invertido * 10 + resto",
+        "img": "/images/SegundaEtapa/Question10/Action7.jpg",
+        "img1": "/images/SegundaEtapa/Question10/codigo7.jpg"
+      },
+      { 
+        "question": "Para garantimos a repetição para executar as açoes para a inversão de algoritmos, precisamos fragmentar o N dividindo ele por 10. Como faremos isso?",
+        "choices": ["N -> 0", "N -> N * 10", "N -> N + 10", "N-> N / 10"],
+        "answer": "N-> N / 10",
+        "img": "/images/SegundaEtapa/Question10/Action8.jpg",
+        "img1": "/images/SegundaEtapa/Question10/codigo8.jpg"
+      }
+    ]
+  }

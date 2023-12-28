@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Question.css'; // Substitua 'NomeDoArquivo' pelo nome real do seu arquivo CSS
 import img1 from '../images/SegundaEtapa/Question4/Action2.jpg';
-import img2 from '../images/SegundaEtapa/Question4/codigo2.png';
+import img2 from '../images/SegundaEtapa/Question4/codigo2.jpg';
 
 const Question4 = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onSetActiveQuestion, onSetStep, onConcatIndex, userInput, onSetUserInput, userInput1,onSetUserInput1 }) => {
   const [selected, setSelected] = useState('');
@@ -47,7 +47,7 @@ const Question4 = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, on
     onConcatIndex((prevSequence) => prevSequence + (activeQuestion + 1) + ' ');
 
     if(activeQuestion === 0){
-        userInput = prompt("Por favor, digite um valor de A:");
+        userInput = prompt("Por favor, digite um valor de A: ");
         userInput1 = prompt("Por favor, digite um valor de B:");
         onSetUserInput(userInput);
         onSetUserInput1(userInput1);
@@ -59,7 +59,7 @@ const Question4 = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, on
     if (activeQuestion < numberOfQuestions - 1) {
       onSetActiveQuestion(activeQuestion + 1);
     } else {
-      onSetStep(9);
+      onSetStep(17);
     }
   };
 

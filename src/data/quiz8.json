@@ -1,0 +1,74 @@
+{
+    "data": [
+      {
+        "question": "O que o algoritmo faz no início?",
+        "choices": [ "Declara as variáveis totalTermos, i, contaTermos como inteiro e x,soma,termo como real", "Lê o valor de N",  "Lê o valor de Nota", "Encerrar o Algoritmo"],
+        "answer": "Declara as variáveis totalTermos, i, contaTermos como inteiro e x,soma,termo como real",
+        "img": "/images/SegundaEtapa/Question8/Action1.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo1.jpg"
+      },
+      {
+        "question": "Precisamos de uma variavel para contar os numeros que serão somados, para isso, vamos utilizar a variavel Contador. Se vamos utilizar, precisamos inicializar essa variavel. Qual valor ela irá começar?",
+        "choices": ["ContaTermos -> 8", "ContaTermos -> 1", "ContaTermos -> 10", "ContaTermos -> 8" ],
+        "answer": "ContaTermos -> 1",
+        "img": "/images/SegundaEtapa/Question8/Action3.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo3.jpg"
+      },
+      {
+        "question": "Precisamos de uma variavel para para armazenar soma de cada termo acumulado, como iremos inicializa-lo?",
+        "choices": ["soma -> 10", "soma -> x", "soma -> 1", "soma -> 8" ],
+        "answer": "soma -> x",
+        "img": "/images/SegundaEtapa/Question8/Action4.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo4.jpg"
+      },
+      {
+        "question": "Precisamos de uma variavel para para armazenar um indince que vai determinar a sequencia dos denominados de cada termos, como iremos inicializa-lo?",
+        "choices": ["i -> 10", "i -> 0", "i -> 1", "i -> 8" ],
+        "answer": "i -> 1",
+        "img": "/images/SegundaEtapa/Question8/Action5.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo5.jpg"
+      },
+      {
+        "question": "Precisamos de uma variavel para calcular cada termo que será acumulado na soma, como iremos inicializa-lo?",
+        "choices": ["termo -> 0", "termo -> 1", "termo -> x", "termo -> 4" ],
+        "answer": "termo -> x",
+        "img": "/images/SegundaEtapa/Question8/Action6.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo6.jpg"
+      },
+      { 
+        "question": "Para efetuarmos uma sequencia de soma dos termos, precisamos somar N vezes. Para isso, precisamos que a soma vai acumulando enquanto o contador for menor que N. Como representaremos essa condição?",
+        "choices": ["Contatermos => 10", "ContaTermos < totalTermos", "Contador <= 8", "Contador <= 9"],
+        "answer": "ContaTermos < totalTermos",
+        "img": "/images/SegundaEtapa/Question8/Action7.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo7.jpg"
+      },
+      { 
+        "question": "Pra definimos a sequencia do denominador de cada termo, como que iremos definir a sequencia de cada numero?",
+        "choices": ["i -> i + 1", "i -> i + i", "i -> i + 0", "i-> i + 2"],
+        "answer": "i-> i + 2",
+        "img": "/images/SegundaEtapa/Question8/Action8.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo8.jpg"
+      },
+      { 
+        "question": "Para descobrirmos o termo, devemos primeiro alternar os sinais(positivo e negativo) elevar o mesmo termo ao x dividir pelo fatorial de i, como representarmos esse calculo?",
+        "choices": ["termo -> -termo*termo^x/soma(1-i)", "termo -> termo * termo ^ x / 3*7", "termo -> (-1) * termo * x * x / (i * (i-1))", "termo-> (-1)* termo * x * x/fatorial(i)"],
+        "answer": "termo -> (-1) * termo * x * x / (i * (i-1))",
+        "img": "/images/SegundaEtapa/Question8/Action9.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo9.jpg"
+      },
+      { 
+        "question": "Para calcularmos a soma de todos os termos, precisamos que tenha uma soma acumulada  de cada termo calculado ate que atinga o totalTermos. Que calculo utilizaremos para essa aplicação?",
+        "choices": ["soma -> soma + 1", "soma -> soma + soma", "soma -> soma + termo", "soma-> soma + 0"],
+        "answer": "soma -> soma + termo",
+        "img": "/images/SegundaEtapa/Question8/Action10.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo10.jpg"
+      },
+      { 
+        "question": "Para que a repitação funciona precisa que a variavel ",
+        "choices": ["Nada", "soma -> soma + 1", "ContaTermos -> 0", "ContaTermos -> ContaTermos + 1"],
+        "answer": "ContaTermos -> ContaTermos + 1",
+        "img": "/images/SegundaEtapa/Question8/Action11.jpg",
+        "img1": "/images/SegundaEtapa/Question8/codigo11.jpg"
+      }
+    ]
+  }

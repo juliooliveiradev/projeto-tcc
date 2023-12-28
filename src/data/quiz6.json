@@ -1,0 +1,46 @@
+{
+    "data": [
+      {
+        "question": "O que o algoritmo faz no início?",
+        "choices": [ "Lê o valor de N",  "Lê o valor de Nota", "Declara as variáveis N, Contador como inteiro; numero e soma como real", "Encerrar o Algoritmo"],
+        "answer": "Declara as variáveis N, Contador como inteiro; numero e soma como real",
+        "img": "/images/SegundaEtapa/Question6/Action1.jpg",
+        "img1": "/images/SegundaEtapa/Question6/codigo1.jpg"
+      },
+      {
+        "question": "Precisamos de uma variavel para contar os numeros que serão somados, para isso, vamos utilizar a variavel Contador. Se vamos utilizar, precisamos inicializar essa variavel. Qual valor ela irá começar?",
+        "choices": ["Contador -> 8", "Contador -> 0", "Contador -> 10", "Contador -> 8" ],
+        "answer": "Contador -> 0",
+        "img": "/images/SegundaEtapa/Question6/Action3.jpg",
+        "img1": "/images/SegundaEtapa/Question6/codigo3.jpg"
+      },
+      {
+        "question": "Para realizar as somas de todos os numeros, precisamos armazenar o resultado na variavel soma. Mas para ser usado, a variavel precisa ser inicializada. Como iniciaremos essa variavel?",
+        "choices": ["soma -> 0 ", "soma -> inicio", "soma -> true", "soma -> 1"],
+        "answer": "soma -> 0 ",
+        "img": "/images/SegundaEtapa/Question6/Action4.jpg",
+        "img1": "/images/SegundaEtapa/Question6/codigo4.jpg"
+      },
+      { 
+        "question": "Para efetuarmos uma sequencia de soma, precisamos somar N vezes. Para isso, precisamos que a soma vai acumulando enquanto o contador for menor que N. Como representaremos essa condição?",
+        "choices": ["Contador => 10", "Contador > N", "Contador <= 8", "Contador <= 9"],
+        "answer": "Contador > N",
+        "img": "/images/SegundaEtapa/Question6/Action5.jpg",
+        "img1": "/images/SegundaEtapa/Question6/codigo5.jpg"
+      },
+      { 
+        "question": "Para que a repitação funciona precisa que a variavel ",
+        "choices": ["Nada", "soma -> soma + 1", "Contador -> 0", "Contador -> Contador + 1"],
+        "answer": "Contador -> Contador + 1",
+        "img": "/images/SegundaEtapa/Question6/Action6.jpg",
+        "img1": "/images/SegundaEtapa/Question6/codigo6.jpg"
+      },
+      { 
+        "question": "Para somarmos os numeros, faremos a soma acumuralada onde cada numreo e em cada repeticao vai somando com a variavel soma e ela vai se redefinindo ate que atinga N repetiçoes. ",
+        "choices": ["soma -> soma + 1", "soma -> soma + soma", "soma -> soma + numero", "soma-> soma + 0"],
+        "answer": "soma -> soma + numero",
+        "img": "/images/SegundaEtapa/Question6/Action8.jpg",
+        "img1": "/images/SegundaEtapa/Question6/codigo8.jpg"
+      }
+    ]
+  }

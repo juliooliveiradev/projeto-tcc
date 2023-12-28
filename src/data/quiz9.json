@@ -1,0 +1,103 @@
+{
+    "data": [
+      {
+        "question": "O que o algoritmo faz no início?",
+        "choices": [ "Lê o valor de N", "Declara as variáveis N, i, termo1, termo2, proximo como inteiro", "Lê o valor de Nota", "Encerrar o Algoritmo"],
+        "answer": "Declara as variáveis N, i, termo1, termo2, proximo como inteiro",
+        "img": "/images/SegundaEtapa/Question9/Action1.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo1.jpg"
+      },
+      {
+        "question": "Para descobrimos a sequencia fibbonacci, primeiro termos que denifir os dois primeiros termos. qual seria o primeiro termo",
+        "choices": ["termo1 -> 8", "termo1 -> 1", "termo1 -> 10", "termo1 -> 0" ],
+        "answer": "termo1 -> 0",
+        "img": "/images/SegundaEtapa/Question9/Action3.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo3.jpg"
+      },
+      {
+        "question": "E como será definido o segundo termo?",
+        "choices": ["termo2 -> 10", "termo2 -> 0", "termo2 -> 1", "termo2 -> 8" ],
+        "answer": "termo2 -> 1",
+        "img": "/images/SegundaEtapa/Question9/Action4.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo4.jpg"
+      },
+      {
+        "question": "Para definirmos o proximo termo, temos que soma os dois ultimos termos. Mas para fazer isso, precisamos inicializar a variavel termo. Como faremos isso?",
+        "choices": ["proximo -> 10", "proximo -> 0", "proximo -> 1", "proximo -> 2" ],
+        "answer": "proximo -> 0",
+        "img": "/images/SegundaEtapa/Question9/Action5.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo5.png"
+      },
+      {
+        "question": "Como ja temos de inicio dois termos  na sequecia, onde o indice ira começar para definir os termos restantes ate alcança o N?",
+        "choices": ["i -> 10", "i -> 2", "i -> 1", "i -> 8" ],
+        "answer": "i -> 2",
+        "img": "/images/SegundaEtapa/Question9/Action6.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo6.png"
+      },
+      {
+        "question": "Para a construção de um algoritmos, e preciso tambem ficar todas as possibilidades. No caso, como vamos começar a partir do terceiro termo, qual uma outra possibilidade que pode acontecer?",
+        "choices": ["N > 0", "N = 1", "N = x", "N < 4" ],
+        "answer": "N = 1",
+        "img": "/images/SegundaEtapa/Question9/Action7.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo7.png"
+      },
+      { 
+        "question": "Se a quantidade de termos for maior que 1, o que acontece?",
+        "choices": ["Mostrar termo1", "Mostrar termo0", "Mostrar i", "Mostrar termo1, termo2"],
+        "answer": "Mostrar termo1",
+        "img": "/images/SegundaEtapa/Question9/Action8.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo8.png"
+      },
+      { 
+        "question": "Se a quantidade de termos for maior que 1, o que acontece?",
+        "choices": ["Mostrar termo1", "Mostrar termo0", "Mostrar i", "Mostrar termo1, termo2"],
+        "answer": "Mostrar termo1, termo2",
+        "img": "/images/SegundaEtapa/Question9/Action9.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo9.png"
+      },
+      { 
+        "question": "Para efetuarmos uma sequencia de soma dos termos, precisamos somar N vezes. Para isso, precisamos que a soma vai acumulando enquanto o contador for menor que N. Como representaremos essa condição?",
+        "choices": ["i => 10", "i < N", "i <= 8", "i <= 9"],
+        "answer": "i < N",
+        "img": "/images/SegundaEtapa/Question9/Action10.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo10.png"
+      },
+      { 
+        "question": "Para que a repitação funciona precisa que a variavel ",
+        "choices": ["Nada", "termo -> termo + 1", "i -> 0", "i -> i + 1"],
+        "answer": "i -> i + 1",
+        "img": "/images/SegundaEtapa/Question9/Action11.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo11.png"
+      },
+      { 
+        "question": "Para criar a sequencia, devemos definir a variavel proximo, Como que ela é definida? ",
+        "choices": ["proximo -> 0", "proximo -> termo1 + termo2", "proximo -> 1", "proximo -> i + 1"],
+        "answer": "proximo -> termo1 + termo2",
+        "img": "/images/SegundaEtapa/Question9/Action12.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo12.png"
+      },
+      { 
+        "question": "Como iremos introduzir valor de proximo junta da sequecia já formada?",
+        "choices": ["Mostrar termo1", "Mostrar termo2", "Mostrar termo1,termo2", "Mostrar ,proximo"],
+        "answer": "Mostrar ,proximo",
+        "img": "/images/SegundaEtapa/Question9/Action13.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo13.png"
+      },
+      { 
+        "question": "Pronto. Definimos o proximo termo.Mas devemos redefinir o dois termos anteriores para gerarmos mais um proximo termo. Primeiro, como iremos redefinir o atepenutimo termo?",
+        "choices": ["termo1 -> 0", "termo1 -> 1", "termo1 -> termo2", "termo1-> proximo"],
+        "answer": "termo1 -> termo2",
+        "img": "/images/SegundaEtapa/Question9/Action14.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo14.png"
+      },
+      { 
+        "question": "E como redefinimos o ultimo?",
+        "choices": ["termo2 -> 0", "termo2 -> termo1", "termo2 -> termo2", "termo2-> proximo"],
+        "answer": "termo2-> proximo",
+        "img": "/images/SegundaEtapa/Question9/Action15.jpg",
+        "img1": "/images/SegundaEtapa/Question9/codigo15.png"
+      }
+      
+    ]
+  }

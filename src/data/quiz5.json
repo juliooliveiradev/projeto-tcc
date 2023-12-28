@@ -1,0 +1,46 @@
+{
+    "data": [
+      {
+        "question": "O que o algoritmo faz no início?",
+        "choices": [ "Lê o valor de N", "Declara as variáveis N, Contador e Nota", "Lê o valor de Nota", "Encerrar o Algoritmo"],
+        "answer": "Declara as variáveis N, Contador e Nota",
+        "img": "/images/SegundaEtapa/Question5/Action1.jpg",
+        "img1": "/images/SegundaEtapa/Question5/codigo1.jpg"
+      },
+      {
+        "question": "Precisamos de uma variavel para contar as notas que são acima de 50, para isso, vamos utilizar a variavel Contador. Se vamos utilizar, precisamos inicializar essa variavel. Qual valor ela irá começar?",
+        "choices": ["Contador -> 8", "Contador -> 10", "Contador -> 8", "Contador -> 0"],
+        "answer": "Contador -> 0",
+        "img": "/images/SegundaEtapa/Question5/Action3.jpg",
+        "img1": "/images/SegundaEtapa/Question5/codigo3.jpg"
+      },
+      {
+        "question": "Para realizar a contagem de notas, precisamos contar N notas. Precisaremos repetir a açao de verificao de notas até uma condiçao de Parada. Qual seria?",
+        "choices": ["N < 0 ", "N > 10", "N > 0", "N > 8"],
+        "answer": "N > 0",
+        "img": "/images/SegundaEtapa/Question5/Action4.jpg",
+        "img1": "/images/SegundaEtapa/Question5/codigo4.jpg"
+      },
+      { 
+        "question": "Não são todas as notas que serao contabilizadas, algumas serao descartadas por nao atingirem uma condição, qual seria ela?",
+        "choices": ["Nota => 10", "Nota >= 50", "Nota <= 89", "Nota <= 0"],
+        "answer": "Nota >= 50",
+        "img": "/images/SegundaEtapa/Question5/Action6.jpg",
+        "img1": "/images/SegundaEtapa/Question5/codigo6.jpg"
+      },
+      { 
+        "question": "Se a nota for maior igual a 50, o que faremos em seguida",
+        "choices": ["Nada", "Soma -> soma + nota", "Contador -> 0", "Contador -> Contador + 1"],
+        "answer": "Contador -> Contador + 1",
+        "img": "/images/SegundaEtapa/Question5/Action7.jpg",
+        "img1": "/images/SegundaEtapa/Question5/codigo7.jpg"
+      },
+      { 
+        "question": "Mas se a nota não for maior igual a 50, o que faremos então",
+        "choices": ["Desistimos ", "N -> N - 1", "Count -> Count - 1", "N -> Count"],
+        "answer": "N -> N - 1",
+        "img": "/images/SegundaEtapa/Question5/Action8.jpg",
+        "img1": "/images/SegundaEtapa/Question5/codigo8.jpg"
+      }
+    ]
+  }
