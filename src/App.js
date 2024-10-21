@@ -38,6 +38,9 @@ import quiz9Data from './data/quiz9.json';
 import quiz10Data from './data/quiz10.json';
 import quiz11Data from './data/quiz11.json';
 import quiz12Data from './data/quiz12.json';
+import Modal from './components/Modal'
+import Modal2 from './components/Modal2'
+import Modal3 from './components/Modal3';
 
 
 
@@ -64,14 +67,41 @@ const App = () => {
   const [termo1, setTermo1] = useState(0);
   const [termo2, setTermo2] = useState(1);
   const [prox, setProx] = useState(0);
+  const [showModal, setShowModal] = useState(false);
+  const [showModal2, setShowModal2] = useState(false);
+  const [showModal3, setShowModal3] = useState(false);
 
 
 
   useEffect(() => {
-    if (step === 5 || step === 6 || step === 7 || step ===9) {
+    if (step === 5 || step === 6 || step === 7 || step === 9) {
       clearInterval(interval);
     }
   }, [step]);
+
+  const closeModal = () => {
+    setShowModal(false);
+  }
+
+  const openModal = () => {
+    setShowModal(true);
+  }
+
+  const closeModal2 = () => {
+    setShowModal2(false);
+  }
+
+  const openModal2 = () => {
+    setShowModal2(true);
+  }
+
+  const closeModal3 = () => {
+    setShowModal3(false);
+  }
+
+  const openModal3 = () => {
+    setShowModal3(true);
+  }
 
   const quizStartHandler = () => {
     setStep(2);
@@ -171,6 +201,8 @@ const App = () => {
     setTime(prevTime => prevTime + 1);
     }, 1000);
   }
+  
+
 
   const resetClickHandler = () => {
     setActiveQuestion(0);
@@ -209,7 +241,11 @@ const App = () => {
         onQuiz9Start={quiz9StartHandler}
         onQuiz10Start={quiz10StartHandler}
         onQuiz11Start={quiz11StartHandler}
-        onQuiz12Start={quiz12StartHandler}                
+        onQuiz12Start={quiz12StartHandler}
+        on3thStepStart={openModal}
+        on4thStepStart={openModal2}
+        on5thStepStart={openModal3}
+
       />}
       {step === 2 && <Question 
         data={quizData.data[activeQuestion]}
@@ -472,6 +508,16 @@ const App = () => {
         userInput={userInput}
         vetorOutput = {vetorOutput}
       />}
+      {showModal && <Modal
+        onClose={closeModal} 
+     />}
+     {showModal2 && <Modal2
+        onClose={closeModal2} 
+     />}
+     {showModal3 && <Modal3
+        onClose={closeModal3} 
+     />}
+  
     </div>
   );
 }

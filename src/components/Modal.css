@@ -1,0 +1,69 @@
+.modal-card {
+  width: 80%; /* Aumente a largura */
+  max-width: 800px; /* Defina um valor máximo */
+  height: 80%; /* Aumente a altura */
+  max-height: 600px; /* Defina um valor máximo para a altura */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.modal-card-body {
+  overflow-y: auto; /* Caso o conteúdo exceda a altura, habilite rolagem */
+}
+
+  
+  button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .divs-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .clickable-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .clickable-div img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 5px;
+  }
+  
+  .clickable-div:hover {
+    background-color: #d1d1d1;
+  }
+  
+  .links-container {
+    margin-top: 15px;
+  }
+  
+  .links-container a {
+    display: block;
+    margin: 5px 0;
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .links-container a:hover {
+    text-decoration: none;
+  }
+
+  
+  
+  

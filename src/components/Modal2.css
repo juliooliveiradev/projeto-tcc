@@ -1,0 +1,6 @@
+.modal-card {
+    max-width: 800px; /* Aumenta a largura máxima do modal */
+    width: 100%; /* Faz o modal ocupar 100% da largura disponível até o limite */
+    margin: auto; /* Centraliza o modal */
+  }
+  
