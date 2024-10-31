@@ -5,7 +5,6 @@ import imgMinecraft from '../images/Quinta Etapa/minecraft-education.png'; // Su
 import imgScreeps from '../images/Quinta Etapa/screeps.png'; // Substitua pelo caminho correto da imagem do Screeps
 import imgCodeCombat from '../images/Quinta Etapa/code-combat.png'; // Substitua pelo caminho correto da imagem do Code Combat
 import imgRoboMind from '../images/Quinta Etapa/robomind.png'; // Substitua pelo caminho correto da imagem do RoboMind
-import imgAIGaming from '../images/Quinta Etapa/ai-gaming.png'; // Substitua pelo caminho correto da imagem do AI Gaming
 import imgCheckio from '../images/Quinta Etapa/checkio.png'; // Substitua pelo caminho correto da imagem do Check.io
 import imgCodeMonkey from '../images/Quinta Etapa/codemonkey.png'; // Substitua pelo caminho correto da imagem do CodeMonkey
 import imgVimAdventures from '../images/Quinta Etapa/vim-adventures.png'; // Substitua pelo caminho correto da imagem do Vim Adventures
@@ -70,15 +69,6 @@ const jogos = [
     precisaInstalar: 'Sim, precisa ser instalado no computador.',
     downloads: 'Download disponível no site oficial.',
     link: 'https://robomind.net/'
-  },
-  {
-    nome: 'AI Gaming',
-    imagem: imgAIGaming,
-    instrucoes: 'AI Gaming utiliza inteligência artificial para criar jogos dinâmicos.',
-    comoJogar: 'Interaja com a IA para aprender e desenvolver habilidades de programação.',
-    precisaInstalar: 'Dependendo do jogo, pode ser necessário download.',
-    downloads: 'Verifique no site específico do jogo.',
-    link: 'https://www.aigaming.com/'
   },
   {
     nome: 'Check.io',

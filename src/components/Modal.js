@@ -26,9 +26,8 @@ const Modal = ({ onClose }) => {
       { id: 4, url: 'https://www.hackerrank.com/challenges/extra-long-factorials/problem', label: 'Cálculo do Fatorial' },
       { id: 5, url: 'https://www.hackerrank.com/challenges/trignometric-ratios/problem', label: 'Cálculo de uma série infinita' },
       { id: 6, url: 'https://www.hackerrank.com/challenges/ctci-fibonacci-numbers/problem', label: 'Geração de sequência de Fibonacci' },
-      { id: 7, url: 'https://www.hackerrank.com/contests/hack-the-code/challenges/reverse-number/problem', label: 'Inversão dos dígitos de um número inteiro' },
-      { id: 8, url: 'https://www.hackerrank.com/challenges/30-binary-numbers/problem', label: 'Conversão de base' },
-      { id: 9, url: 'https://www.hackerrank.com/challenges/30-exceptions-string-to-integer', label: 'Conversão de caractere para número' },
+      { id: 7, url: 'https://www.hackerrank.com/challenges/30-binary-numbers/problem', label: 'Conversão de base' },
+      { id: 8, url: 'https://www.hackerrank.com/challenges/30-exceptions-string-to-integer', label: 'Conversão de caractere para número' },
     ],
     div3: [
       { id: 1, url: 'https://www.codewars.com/kata/5a00e05cc374cb34d100000d', label: 'Troca dos Valores de duas variáveis' },
@@ -38,14 +37,14 @@ const Modal = ({ onClose }) => {
       { id: 5, url: 'https://www.codewars.com/kata/5963a29980509479cd000075', label: 'Cálculo de uma série infinita' },
       { id: 6, url: 'https://www.codewars.com/kata/5239f06d20eeab9deb00049b', label: 'Geração de sequência de Fibonacci' },
       { id: 7, url: 'https://www.codewars.com/kata/555bfd6f9f9f52680f0000c5', label: 'Inversão dos dígitos de um número inteiro' },
-      { id: 8, url: 'https://www.codewars.com/kata/decimal-to-binary-converter', label: 'Conversão de base' },
+      { id: 8, url: 'https://www.codewars.com/kata/55606aeebf1f0305f900006f', label: 'Conversão de base' },
       { id: 9, url: 'https://www.codewars.com/kata/55ee3ebff71e82a30000006a', label: 'Conversão de caractere para número' },
     ],
     div4: [
       { id: 1, url: 'https://pt.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms', label: 'Introduçao aos Algoritmos' },
       { id: 2, url: 'https://pt.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion', label: 'Algoritmos recursivos' },
-      { id: 3, url: 'https://pt.khanacademy.org/computing/computer-science/algorithms/towers-of-hanoi/a/towers-of-hanoi', label: 'Torre de Hanoi' },
-      { id: 4, url: 'https://pt.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/intro-information-theory', label: 'Teoria antiga da informação' },
+      { id: 3, url: 'https://pt.khanacademy.org/computing/computer-science/informationtheory/info-theory/v/intro-information-theory', label: 'Teoria antiga da informação' },
+      { id: 4, url: 'https://pt.khanacademy.org/computing/computer-science/algorithms/towers-of-hanoi/a/towers-of-hanoi', label: 'Torre de Hanoi' },
     ],
   };
 
