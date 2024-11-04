@@ -1,23 +1,24 @@
 import React, { useState, useEffect } from 'react';
 
+const Start = ({ onQuizStart, onQuiz2Start, onQuiz3Start, onQuiz4Start, onQuiz5Start, onQuiz6Start, onQuiz7Start, onQuiz8Start, onQuiz9Start, onQuiz10Start, onQuiz11Start, onQuiz12Start, on3thStepStart, on4thStepStart, on5thStepStart }) => {
 
-const Start = ({ onQuizStart, onQuiz2Start, onQuiz3Start, onQuiz4Start, onQuiz5Start, onQuiz6Start, onQuiz7Start, onQuiz8Start, onQuiz9Start, onQuiz10Start, onQuiz11Start, onQuiz12Start, on3thStepStart,on4thStepStart, on5thStepStart }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  useEffect(() => {
+    const isModalClosedBefore = sessionStorage.getItem('isModalClosed');
+    if (!isModalClosedBefore) {
+      setIsModalOpen(true);
+    }
+  }, []);
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
+    sessionStorage.setItem('isModalClosed', 'true');
     window.open('https://forms.gle/eU116UgUwYyRzFRWA', '_blank');
   };
 
-  useEffect(() => {
-    // Pode ser usado para mostrar o modal ao carregar
-    setIsModalOpen(true);
-  }, []);
-
-  return(
+  return (
     <div className="card">
-
       {isModalOpen && (
         <div className="modal is-active">
           <div className="modal-background" onClick={handleCloseModal}></div>
@@ -53,7 +54,7 @@ const Start = ({ onQuizStart, onQuiz2Start, onQuiz3Start, onQuiz4Start, onQuiz5S
             <div class="box">
               <button className="button is-info is-medium" onClick={onQuiz3Start}>Ligar a Lampada</button>
             </div>
-          </div>  
+          </div>
           <div class="box">
             <h4>2º Etapa: Construindo algoritmos atraves de codigos de programaçao </h4>
             <div class="box">
