@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Modal2.css"; // Certifique-se de que o arquivo CSS está importado
 
-const Modal = ({ onClose }) => {
+const Modal2 = ({ onClose }) => {
   const [copiedMessage, setCopiedMessage] = useState("");
   const [showRedirectButton, setShowRedirectButton] = useState(false);
 
@@ -72,4 +72,4 @@ const Modal = ({ onClose }) => {
   );
 };
 
-export default Modal;
+export default Modal2;
