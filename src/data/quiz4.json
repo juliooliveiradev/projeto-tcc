@@ -8,7 +8,7 @@
         "img1": "/images/SegundaEtapa/Question4/codigo1.jpg"
       },
       {
-        "question": "Estamos com todas as variaveis definidas juntamente com a variavel auxiliar, para que ela auxilie na troca de variaveis como iremos utiliza-la?",
+        "question": "Estamos com todas as variaveis definidas juntamente com a variavel auxiliar, para que ela auxilie na troca de variaveis. Como iremos utiliza-la?",
         "choices": ["A -> Aux", "C -> A", "Aux -> A", "B->A"],
         "answer": "Aux -> A",
         "img": "/images/SegundaEtapa/Question4/Action3.jpg",

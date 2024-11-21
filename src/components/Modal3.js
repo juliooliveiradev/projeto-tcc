@@ -134,15 +134,6 @@ const jogos = [
     link: 'https://www.codingame.com/'
   },
   {
-      nome: 'Untrusted',
-      imagem: imgUntrusted,
-      instrucoes: 'Untrusted é um jogo de administração de sistemas e segurança.',
-      comoJogar: 'Junte-se a um grupo de invasores que tentam entrar no sistema de uma corporação, usando ferramentas de engenharia social.',
-      precisaInstalar: 'Sim, é necessário instalar através do Steam.',
-      downloads: 'Disponível no Steam.',
-      link: 'https://www.playuntrusted.com/' // Link atualizado
-  },
-  {
     nome: 'Human Resource Machine',
     imagem: imgHRM,
     instrucoes: 'Human Resource Machine é um jogo que ensina lógica de programação através de puzzles.',
