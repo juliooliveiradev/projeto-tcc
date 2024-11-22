@@ -7,12 +7,10 @@ import imgCodeCombat from '../images/Quinta Etapa/code-combat.png'; // Substitua
 import imgRoboMind from '../images/Quinta Etapa/robomind.png'; // Substitua pelo caminho correto da imagem do RoboMind
 import imgCheckio from '../images/Quinta Etapa/checkio.png'; // Substitua pelo caminho correto da imagem do Check.io
 import imgCodeMonkey from '../images/Quinta Etapa/codemonkey.png'; // Substitua pelo caminho correto da imagem do CodeMonkey
-import imgVimAdventures from '../images/Quinta Etapa/vim-adventures.png'; // Substitua pelo caminho correto da imagem do Vim Adventures
 import imgElevatorSaga from '../images/Quinta Etapa/elevator-saga.png'; // Substitua pelo caminho correto da imagem do Elevator Saga
 import imgFlexboxFroggy from '../images/Quinta Etapa/flexbox-froggy.png'; // Substitua pelo caminho correto da imagem do Flexbox Froggy
 import imgCyberDojo from '../images/Quinta Etapa/cyber-dojo.png'; // Substitua pelo caminho correto da imagem do Cyber-Dojo
 import imgCodinGame from '../images/Quinta Etapa/codingame.png'; // Substitua pelo caminho correto da imagem do CodinGame
-import imgUntrusted from '../images/Quinta Etapa/untrusted.png'; // Substitua pelo caminho correto da imagem do Untrusted
 import imgHRM from '../images/Quinta Etapa/human-resource-machine.png'; // Substitua pelo caminho correto da imagem do Human Resource Machine
 
 const jogos = [
@@ -87,15 +85,6 @@ const jogos = [
     precisaInstalar: 'Não, pode ser jogado no navegador.',
     downloads: 'Não é necessário realizar downloads.',
     link: 'https://www.playcodemonkey.com/'
-  },
-  {
-    nome: 'Vim Adventures',
-    imagem: imgVimAdventures,
-    instrucoes: 'Vim Adventures é um jogo que ensina a usar o editor Vim enquanto você joga.',
-    comoJogar: 'Resolva quebra-cabeças e complete níveis usando comandos do Vim.',
-    precisaInstalar: 'Não, pode ser jogado no navegador.',
-    downloads: 'Não é necessário realizar downloads.',
-    link: 'https://vim-adventures.com/'
   },
   {
     nome: 'Elevator Saga',
