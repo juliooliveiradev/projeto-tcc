@@ -24,7 +24,7 @@
       { 
         "question": "Para efetuarmos uma sequencia de soma, precisamos somar N vezes. Para isso, precisamos que a soma vai acumulando enquanto o contador for menor que N. Como representaremos essa condição?",
         "choices": ["Contador => 10", "Contador > N", "Contador <= 8", "Contador <= 9"],
-        "answer": "Contador > N",
+        "answer": "Contador < N",
         "img": "/images/SegundaEtapa/Question6/Action5.jpg",
         "img1": "/images/SegundaEtapa/Question6/codigo5.jpg"
       },
