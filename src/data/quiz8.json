@@ -64,7 +64,7 @@
         "img1": "/images/SegundaEtapa/Question8/codigo10.jpg"
       },
       { 
-        "question": "Para que a repitação funciona precisa que a variavel ",
+        "question": "Para que a repitação funciona precisa que a variavel ContaTermos incrementa mais um para que a repetição funcione, Como representaremos a incrementação?",
         "choices": ["Nada", "soma -> soma + 1", "ContaTermos -> 0", "ContaTermos -> ContaTermos + 1"],
         "answer": "ContaTermos -> ContaTermos + 1",
         "img": "/images/SegundaEtapa/Question8/Action11.jpg",
